@@ -68,6 +68,18 @@ export default {
       type: 'datetime',
     
     },
+    {
+      name: 'author',
+      type: 'object',
+      fields: [
+        {
+          title: 'Author',
+          name: 'author',
+          type: 'reference',
+          to: [{type: 'author'}]
+        }
+      ]
+    },
     
   ],
 }
