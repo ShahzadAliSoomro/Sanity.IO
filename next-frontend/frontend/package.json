@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^13.5.4",
     "next-sanity": "^5.5.4",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-portable-text": "^0.6.0"
   },
   "devDependencies": {
     "@types/node": "latest",
